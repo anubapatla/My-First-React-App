@@ -1,13 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+//import { useState } from 'react'
+//import reactLogo from './assets/react.svg'
+//import viteLogo from '/vite.svg'
 import './App.css'
 
+function Welcome(){
+  return<h2> Anusha tutiroals</h2>
+
+}
 function App() {
-  const [count, setCount] = useState(0)
+  //const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div>
+       <h1>react course</h1>
+       <Welcome/>
+    </div>
+  );
+}
+   /* <>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -30,6 +40,6 @@ function App() {
       </p>
     </>
   )
-}
+}*/
 
-export default App
+export default App;
