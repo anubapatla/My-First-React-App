@@ -1,12 +1,15 @@
 //import { useState } from 'react'
 //import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg'
+import Welcome  from './Welcome';
+import AmazingButton from './Button';
 import './App.css'
 
-function Welcome(){
-  return<h2> Anusha tutiroals</h2>
 
+function Save(){
+ return<h3>save this</h3>
 }
+
 function App() {
   //const [count, setCount] = useState(0)
 
@@ -14,6 +17,8 @@ function App() {
     <div>
        <h1>react course</h1>
        <Welcome/>
+       <Save/>
+       <AmazingButton/>
     </div>
   );
 }
