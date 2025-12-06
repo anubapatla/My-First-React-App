@@ -3,7 +3,7 @@
 //import viteLogo from '/vite.svg'
 import Welcome  from './Welcome';
 import AmazingButton from './Button';
-import { Hello } from './Hello';
+import { Hello ,HelloWithoutJSX} from './Hello';
 import './App.css'
 
 
@@ -17,6 +17,7 @@ function App() {
   return (
     <div>
        <h2>react course</h2>
+       <HelloWithoutJSX/>
        <Hello/>
        <Welcome/>
        <Save/>
