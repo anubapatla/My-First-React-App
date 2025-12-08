@@ -7,6 +7,7 @@ export const Hello =()=>{
 };
 export const HelloWithoutJSX =()=>{
     return React.createElement("div",
-        {id:"container"},"hello worls");
+        {id:"container"},
+        React.createContext("h1",null,"hello worls"));
     
 };

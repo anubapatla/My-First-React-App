@@ -4,6 +4,7 @@
 import Welcome  from './Welcome';
 import AmazingButton from './Button';
 import { Hello ,HelloWithoutJSX} from './Hello';
+import { Card } from './Card';
 import './App.css'
 
 
@@ -22,6 +23,7 @@ function App() {
        <Welcome/>
        <Save/>
        <AmazingButton/>
+       <Card/>
     </div>
   );
 }
