@@ -20,7 +20,7 @@ function App() {
        <h2>react course</h2>
        <HelloWithoutJSX/>
        <Hello/>
-       <Welcome/>
+       <Welcome name="SRINU"/>
        <Save/>
        <AmazingButton/>
        <Card/>
