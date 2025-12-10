@@ -5,6 +5,7 @@ import Welcome  from './Welcome';
 import AmazingButton from './Button';
 import { Hello ,HelloWithoutJSX} from './Hello';
 import { Card } from './Card';
+import { Product } from '../public/Product';
 import './App.css'
 
 
@@ -18,6 +19,9 @@ function App() {
   return (
     <div>
        <h2>react course</h2>
+       <Product title="gaming laptop" price={1299.99} 
+       inStock={true} 
+       categories={["Electronics","Computers","Gaming"]}/>
        <HelloWithoutJSX/>
        <Hello/>
        <Welcome name="SRINU"/>
