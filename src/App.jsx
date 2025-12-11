@@ -5,7 +5,7 @@ import Welcome  from './Welcome';
 import AmazingButton from './Button';
 import { Hello ,HelloWithoutJSX} from './Hello';
 import { Card } from './Card';
-import { Product } from '../public/Product';
+import { Product } from './Product';
 import './App.css'
 
 
