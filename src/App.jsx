@@ -6,6 +6,7 @@ import AmazingButton from './Button';
 import { Hello ,HelloWithoutJSX} from './Hello';
 import { Card } from './Card';
 import { Product } from './Product';
+import { Greeting } from './Greeting';
 import './App.css'
 
 
@@ -24,6 +25,9 @@ function App() {
        categories={["Electronics","Computers","Gaming"]}/>
        <HelloWithoutJSX/>
        <Hello/>
+       <Greeting name="neil" message="good morning"/>
+       <Greeting name="cnuu" message="good night"/>
+       <Greeting name="anuu" message="good day"/>
        <Welcome name="SRINU"/>
        <Save/>
        <AmazingButton/>
