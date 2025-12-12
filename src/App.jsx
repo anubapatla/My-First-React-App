@@ -10,6 +10,7 @@ import { Greeting } from './Greeting';
 import { CardWrapper } from './CardWrapper';
 import './App.css'
 import { UserCard } from './UserCard';
+import { UserDeails } from './UserDetails';
 
 
 function Save(){
@@ -21,6 +22,9 @@ function App() {
 
   return (
     <div>
+      <UserDeails name="shivayya" isOnline={true} />
+       <UserDeails name="ganeshaa" isOnline={true} hideOffline={true} />
+
       <CardWrapper title="User Profile">
         <p>Bruce Wayne </p>
         <p> batman@jl.com</p>
