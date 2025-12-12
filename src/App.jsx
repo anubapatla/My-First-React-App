@@ -8,6 +8,7 @@ import { Card } from './Card';
 import { Product } from './Product';
 import { Greeting } from './Greeting';
 import './App.css'
+import { UserCard } from './UserCard';
 
 
 function Save(){
@@ -30,6 +31,7 @@ function App() {
        <Greeting name="anuu" message="good day"/>
        <Welcome name="SRINU"/>
        <Save/>
+       <UserCard/>
        <AmazingButton/>
        <Card/>
     </div>
