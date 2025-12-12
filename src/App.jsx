@@ -7,6 +7,7 @@ import { Hello ,HelloWithoutJSX} from './Hello';
 import { Card } from './Card';
 import { Product } from './Product';
 import { Greeting } from './Greeting';
+import { CardWrapper } from './CardWrapper';
 import './App.css'
 import { UserCard } from './UserCard';
 
@@ -20,6 +21,11 @@ function App() {
 
   return (
     <div>
+      <CardWrapper title="User Profile">
+        <p>Bruce Wayne </p>
+        <p> batman@jl.com</p>
+        <button> Edit profile</button>
+      </CardWrapper>
        <h2>react course</h2>
        <Product title="gaming laptop" price={1299.99} 
        inStock={true} 
