@@ -22,8 +22,10 @@ function App() {
 
   return (
     <div>
-      <UserDeails name="shivayya" isOnline={true} isPremium={true} isNewUser={true} />
-       <UserDeails name="ganeshaa" isOnline={true} hideOffline={true} />
+      <UserDeails name="shivayya" isOnline={true} 
+      isPremium={true} isNewUser={true} role ="admin" />
+       <UserDeails name="ganeshaa" isOnline={true}
+        hideOffline={true} role="vip" />
 
       <CardWrapper title="User Profile">
         <p>Bruce Wayne </p>
