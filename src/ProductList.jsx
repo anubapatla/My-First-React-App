@@ -1,14 +1,23 @@
-export const ProductList =()=>
-{
+export const ProductList =()=>{
+    const products =[
+        {id:1,name:"Laptop",price:999},
+         {id:2,name:"phone",price:799},
+          {id:3,name:"Tablet",price:599},  
+           {id:4,name:"Watch",price:399},
+            {id:5,name:"Headphone",price:199},  
+        ];
+
     return(
         <div>
             <h2> Our products </h2>
-            <div> <h3> Laptop</h3>
-            <p> price: $20000</p></div>
-            <div> <h3> Phone</h3>
-            <p> price: $555</p></div>
-            <div> <h3> Tablet</h3>
-            <p> price: $999</p></div>
+            {products.map((product)=>{
+                return(
+            <div> <h3> {(product.name)}</h3>
+            <p> Price:${product.price}</p>
+            </div>
+            )
+        })
+            }
         </div>
     )
 }
