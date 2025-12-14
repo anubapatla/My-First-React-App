@@ -11,7 +11,7 @@ import { CardWrapper } from './CardWrapper';
 import './App.css'
 import { UserCard } from './UserCard';
 import { UserDeails } from './UserDetails';
-
+import { ProductList } from './ProductList';
 
 function Save(){
  return<h3>save this</h3>
@@ -22,6 +22,7 @@ function App() {
 
   return (
     <div>
+      <ProductList/>
       <UserDeails name="shivayya" isOnline={true} 
       isPremium={true} isNewUser={true} role ="admin" />
        <UserDeails name="ganeshaa" isOnline={true}
