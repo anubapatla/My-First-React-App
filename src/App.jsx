@@ -12,6 +12,7 @@ import './App.css'
 import { UserCard } from './UserCard';
 import { UserDeails } from './UserDetails';
 import { ProductList } from './ProductList';
+import { NameList } from './NameList';
 
 function Save(){
  return<h3>save this</h3>
@@ -22,6 +23,7 @@ function App() {
 
   return (
     <div>
+      <NameList/>
       <ProductList/>
       <UserDeails name="shivayya" isOnline={true} 
       isPremium={true} isNewUser={true} role ="admin" />
