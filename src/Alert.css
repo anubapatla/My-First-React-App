@@ -1,0 +1,12 @@
+.alert{
+    padding:16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    color:black
+}
+.success {
+    background-color: skyblue;
+}
+.error {
+    background-color: violet;
+}
