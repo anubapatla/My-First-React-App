@@ -15,6 +15,7 @@ import { ProductList } from './ProductList';
 import { NameList } from './NameList';
 import { Alert } from './Alert';
 import { NewButton } from './NewButton';
+import { CustomButton } from './CustomButton';
 
 function Save(){
  return<h3>save this</h3>
@@ -25,7 +26,7 @@ function App() {
 
   return (
     <div>
-      <NewButton/>
+      <CustomButton/>      <NewButton/>
       <Alert> your changes have been saved!</Alert>
       <Alert type ="error">something went wrong </Alert>
       <NameList/>
