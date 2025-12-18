@@ -14,6 +14,7 @@ import { UserDeails } from './UserDetails';
 import { ProductList } from './ProductList';
 import { NameList } from './NameList';
 import { Alert } from './Alert';
+import { NewButton } from './NewButton';
 
 function Save(){
  return<h3>save this</h3>
@@ -24,6 +25,7 @@ function App() {
 
   return (
     <div>
+      <NewButton/>
       <Alert> your changes have been saved!</Alert>
       <Alert type ="error">something went wrong </Alert>
       <NameList/>
