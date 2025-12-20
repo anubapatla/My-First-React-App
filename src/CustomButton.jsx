@@ -1,8 +1,8 @@
-export const CustomButton =()=>{
+export const CustomButton =({ text})=>{
+   const name = "Codevoilution";
     const handleClick = ()=>{
-        alert ("thanks for liking");
+     console.log(`hey ${name},you clicked ${text}`); // alert ("thanks for liking");
     };
-    return <button onClick={handleClick}>
-        like me
-    </button>
-    };
+    return <button onClick={handleClick}>{text}</button>
+ //return <button onClick = { () => alert("thanks for liking")}>like me</button>;
+ };

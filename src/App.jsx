@@ -16,6 +16,9 @@ import { NameList } from './NameList';
 import { Alert } from './Alert';
 import { NewButton } from './NewButton';
 import { CustomButton } from './CustomButton';
+import { Newsletter } from './Newsletter';
+import { Contact } from './Contact';
+import { ActionButton } from './ActionButton';
 
 function Save(){
  return<h3>save this</h3>
@@ -26,7 +29,10 @@ function App() {
 
   return (
     <div>
-      <CustomButton/>      <NewButton/>
+      <Newsletter/>
+      <Contact/>
+      <CustomButton text="bookmark"/>
+      <CustomButton text="like"/>      <NewButton/>
       <Alert> your changes have been saved!</Alert>
       <Alert type ="error">something went wrong </Alert>
       <NameList/>
