@@ -19,6 +19,7 @@ import { CustomButton } from './CustomButton';
 import { Newsletter } from './Newsletter';
 import { Contact } from './Contact';
 import { ActionButton } from './ActionButton';
+import { Menu } from './Menu';
 
 function Save(){
  return<h3>save this</h3>
@@ -29,6 +30,7 @@ function App() {
 
   return (
     <div>
+      <Menu/>
       <Newsletter/>
       <Contact/>
       <CustomButton text="bookmark"/>
