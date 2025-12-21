@@ -22,6 +22,7 @@
 //import { Menu } from './Menu';
 import "./App.css";
 import { Counter } from "./Counter";
+import { LoginCard } from "./LoginCard";
 function App() {
   //const [count, setCount] = useState(0)
 
@@ -29,6 +30,7 @@ function App() {
     <div>
        <h1> my first react app</h1>
        <Counter/>
+       <LoginCard/>
     </div>
   );}
       
