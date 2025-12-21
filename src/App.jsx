@@ -1,36 +1,38 @@
 //import { useState } from 'react'
 //import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg'
-import Welcome  from './Welcome';
-import AmazingButton from './Button';
-import { Hello ,HelloWithoutJSX} from './Hello';
-import { Card } from './Card';
-import { Product } from './Product';
-import { Greeting } from './Greeting';
-import { CardWrapper } from './CardWrapper';
-import './App.css'
-import { UserCard } from './UserCard';
-import { UserDeails } from './UserDetails';
-import { ProductList } from './ProductList';
-import { NameList } from './NameList';
-import { Alert } from './Alert';
-import { NewButton } from './NewButton';
-import { CustomButton } from './CustomButton';
-import { Newsletter } from './Newsletter';
-import { Contact } from './Contact';
-import { ActionButton } from './ActionButton';
-import { Menu } from './Menu';
-
-function Save(){
- return<h3>save this</h3>
-}
-
+//import Welcome  from './Welcome';
+//import AmazingButton from './Button';
+//import { Hello ,HelloWithoutJSX} from './Hello';
+//import { Card } from './Card';
+//import { Product } from './Product';
+//import { Greeting } from './Greeting';
+//import { CardWrapper } from './CardWrapper';
+//import './App.css'
+//import { UserCard } from './UserCard';
+//import { UserDeails } from './UserDetails';
+//import { ProductList } from './ProductList';
+//import { NameList } from './NameList';
+//import { Alert } from './Alert';
+//import { NewButton } from './NewButton';
+//import { CustomButton } from './CustomButton';
+//import { Newsletter } from './Newsletter';
+//import { Contact } from './Contact';
+//import { ActionButton } from './ActionButton';
+//import { Menu } from './Menu';
+import "./App.css";
+import { Counter } from "./Counter";
 function App() {
   //const [count, setCount] = useState(0)
 
   return (
     <div>
-      <Menu/>
+       <h1> my first react app</h1>
+       <Counter/>
+    </div>
+  );}
+      
+   {/*<Menu/>
       <Newsletter/>
       <Contact/>
       <CustomButton text="bookmark"/>
@@ -61,11 +63,9 @@ function App() {
        <Welcome name="SRINU"/>
        <Save/>
        <UserCard/>
-       <AmazingButton/>
-       <Card/>
-    </div>
-  );
-}
+       <AmazingButton/>   */}
+      
+
    /* <>
       <div>
         <a href="https://vite.dev" target="_blank">
