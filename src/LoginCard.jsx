@@ -1,11 +1,22 @@
 import { useState } from "react"
 export const LoginCard =() => {
     const [isLoggedIn ,setIsLoggedIn]= useState (false);
+    const [message , setMessage] = useState("");
     const handleLogin = () => {
         setIsLoggedIn(!isLoggedIn);
     };
-    return (
-        <button onClick={handleLogin}> {isLoggedIn ? "Logout": "Login"}</button>
-    );
+    const handleChange =(event) => {
+       setMessage (event.target.value);
+    };
 
+    return (
+        <>
+    
+        <button onClick={handleLogin}> {isLoggedIn ? "Logout": "Login"}</button>
+       <div>
+        <input type="text"placeholder="type a message" value={message} onChange={handleChange}/>
+        <p>{message}</p>      
+       </div>
+        </>
+    );
 };
