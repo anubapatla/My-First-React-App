@@ -23,12 +23,14 @@
 import "./App.css";
 import { Counter } from "./Counter";
 import { LoginCard } from "./LoginCard";
+import { UserDashboard } from "./UserDashboard";
 function App() {
   //const [count, setCount] = useState(0)
 
   return (
     <div>
        <h1> my first react app</h1>
+       <UserDashboard isPremium={true}/>
        <Counter/>
        <LoginCard/>
     </div>
