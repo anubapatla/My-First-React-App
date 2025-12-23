@@ -23,6 +23,7 @@
 import "./App.css";
 import { Counter } from "./Counter";
 import { LoginCard } from "./LoginCard";
+import { SimpleCounter } from "./SimpleCounter";
 import { UserDashboard } from "./UserDashboard";
 function App() {
   //const [count, setCount] = useState(0)
@@ -30,9 +31,10 @@ function App() {
   return (
     <div>
        <h1> my first react app</h1>
-       <UserDashboard isPremium={true}/>
+      {/* <UserDashboard isPremium={true}/>
        <Counter/>
-       <LoginCard/>
+       <LoginCard/>*/}
+       <SimpleCounter/>
     </div>
   );}
       
