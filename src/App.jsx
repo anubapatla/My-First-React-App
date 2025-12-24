@@ -25,16 +25,21 @@ import { Counter } from "./Counter";
 import { LoginCard } from "./LoginCard";
 import { SimpleCounter } from "./SimpleCounter";
 import { UserDashboard } from "./UserDashboard";
+import {PrevStateCounter} from "./PrevStateCounter"
+import { BatchingCounter } from "./BatchingCounter";
 function App() {
   //const [count, setCount] = useState(0)
 
   return (
     <div>
        <h1> my first react app</h1>
+       <BatchingCounter/>
       {/* <UserDashboard isPremium={true}/>
        <Counter/>
-       <LoginCard/>*/}
-       <SimpleCounter/>
+       <LoginCard/> 
+        <PrevStateCounter/>
+       <SimpleCounter/>*/}
+      
     </div>
   );}
       
