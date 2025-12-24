@@ -27,15 +27,16 @@ import { SimpleCounter } from "./SimpleCounter";
 import { UserDashboard } from "./UserDashboard";
 import {PrevStateCounter} from "./PrevStateCounter"
 import { BatchingCounter } from "./BatchingCounter";
+import { Userprofile } from "./UserProfile";
 function App() {
   //const [count, setCount] = useState(0)
 
   return (
     <div>
        <h1> my first react app</h1>
-       <BatchingCounter/>
+      <Userprofile/>
       {/* <UserDashboard isPremium={true}/>
-       <Counter/>
+       <Counter/>  <BatchingCounter/>
        <LoginCard/> 
         <PrevStateCounter/>
        <SimpleCounter/>*/}
