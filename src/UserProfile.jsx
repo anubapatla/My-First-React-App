@@ -10,6 +10,7 @@ export const Userprofile =()=>{
     console.log("component rendering,user:",user);
     const updateName =()=>{
         setUser({
+            ...user,
             name: "srinu",
         });
     };
