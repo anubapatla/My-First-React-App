@@ -20,6 +20,12 @@ export const ShoppingCart =()=>{
             vueCourse: cartItems.vueCourse +1,
         });
      } ;  
+     const clearCart=()=>{
+        setCartItems({
+            reactCourse:0,
+            vueCourse:0,
+        })
+     }
     
     return(
         <div>
@@ -37,6 +43,7 @@ export const ShoppingCart =()=>{
             onAddToCart={handleAddVueCourse}
             />
             <CartSummary cartItems={cartItems} prices={prices} />
+            <button onClick={clearCart}>Clear Cart</button>
         </div>
     );
 }
